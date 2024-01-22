@@ -1,0 +1,11 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.hey {
+  height: 1000px;
+  background-color: antiquewhite;
+}

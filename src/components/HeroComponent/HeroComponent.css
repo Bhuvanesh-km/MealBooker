@@ -1,0 +1,124 @@
+header {
+  height: 80vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url("../../assets/headerbg.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0.8rem;
+}
+
+.nav-line {
+  font-size: 120%;
+  margin-right: 0.9rem;
+  margin-top: 0.7rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid transparent;
+}
+
+.nav-anchors {
+  color: white;
+}
+
+.nav-anchors:hover {
+  border-bottom: 0.1rem solid #f63854;
+  color: #f63854;
+}
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+  height: 60vh;
+}
+
+.main-heading {
+  display: flex;
+  flex-direction: column;
+  line-height: 130%;
+  padding-bottom: 2rem;
+  word-spacing: 0.2rem;
+  font-size: 300%;
+  color: white;
+  font-weight: 800;
+}
+
+.developers {
+  color: #f63854;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  margin-right: 1rem;
+  padding: 0.8rem 1.6rem;
+  background-color: #f63854;
+  border-radius: 4rem;
+  border: 0.1rem solid #f63854;
+  transition: transform 0.3s color 0.3s, background-color 0.3s;
+}
+.btn-empty {
+  color: #f63854;
+  background-color: transparent;
+}
+.btn:hover {
+  transform: scale(1.2);
+}
+.btn-empty:hover {
+  color: white;
+  background-color: #f63854;
+}
+
+/* .main-heading {
+  display: flex;
+  flex-direction: column;
+} */
+
+@media screen and (max-width: 900px) {
+  .navigation {
+    position: static;
+  }
+  .showcase {
+    margin-left: 10px;
+  }
+  .nav-line {
+    font-size: medium;
+  }
+  .main-heading {
+    line-height: 120%;
+    /* word-spacing: 0.1rem; */
+    font-weight: 600;
+    font-size: 200%;
+  }
+  .btn:hover {
+    transform: scale(1.1);
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .main-heading {
+    line-height: 110%;
+    font-size: 150%;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .nav-line {
+    font-size: small;
+  }
+}
