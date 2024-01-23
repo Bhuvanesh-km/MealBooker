@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import Showcase from "./Showcase";
-import "./HeroComponent.css";
+import "../styles/HeroComponent.css";
 
 const HeroComponent = () => {
   return (

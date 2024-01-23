@@ -1,4 +1,4 @@
-import "./HeroComponent.css";
+import "../styles/HeroComponent.css";
 
 const Showcase = () => {
   return (

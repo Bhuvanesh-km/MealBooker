@@ -93,7 +93,7 @@ a {
     position: static;
   }
   .showcase {
-    margin-left: 10px;
+    margin-left: 75px;
   }
   .nav-line {
     font-size: medium;
@@ -114,6 +114,9 @@ a {
     line-height: 110%;
     font-size: 150%;
     font-weight: 400;
+  }
+  .showcase {
+    margin-left: 25px;
   }
 }
 
