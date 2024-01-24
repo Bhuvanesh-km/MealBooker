@@ -1,0 +1,70 @@
+#Plans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.card-plans {
+  text-align: center;
+  width: 300px;
+  margin: 3em 0em;
+  padding: 25px 10px 15px 10px;
+  line-height: 30px;
+  border: 2px solid lightgray;
+  box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.2);
+  border-color: rgba(128, 0, 0, 0.7);
+  border-style: solid;
+  border-radius: 5%;
+}
+
+.card-plans h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.card-plans h4 {
+  /* text-align: center; */
+  color: #f63854;
+}
+
+.card-plans h4 span {
+  color: gray;
+  font-size: 15px;
+}
+
+.price {
+  font-size: 40px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+/* .perks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.is-check {
+  font-size: 20px;
+  color: #f63854;
+}
+
+.signup-button {
+  text-align: center;
+  position: relative;
+  top: 42px;
+}
+
+@media only screen and (max-width: 900px) {
+  .pricing-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

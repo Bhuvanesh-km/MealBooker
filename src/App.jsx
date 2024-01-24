@@ -1,7 +1,11 @@
 import "./App.css";
-import { Features, ReviewComponent } from "./components/index";
-import { HeroComponent } from "./components/index";
-import { StepsComponent } from "./components/index";
+import {
+  HeroComponent,
+  Features,
+  StepsComponent,
+  ReviewComponent,
+  PricingComponent,
+} from "./components/index";
 
 function App() {
   return (
@@ -10,6 +14,7 @@ function App() {
       <Features />
       <StepsComponent />
       <ReviewComponent />
+      <PricingComponent />
       <div className="hey"></div>
     </>
   );
