@@ -1,4 +1,3 @@
-import React from "react";
 import { IoCalendar } from "react-icons/io5";
 import { MdDeliveryDining } from "react-icons/md";
 import { GiHotMeal } from "react-icons/gi";

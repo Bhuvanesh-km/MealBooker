@@ -1,5 +1,3 @@
-import "../styles/HeroComponent.css";
-
 const Navbar = () => {
   return (
     <nav className="navigation">

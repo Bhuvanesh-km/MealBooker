@@ -1,5 +1,3 @@
-import "../styles/HeroComponent.css";
-
 const Showcase = () => {
   return (
     <main className="main-showcase">
