@@ -12,11 +12,21 @@ const ReviewCard = ({ data }) => {
       <p className="review-content">{data.review}</p>
       <div className="rating">
         {/* <stars /> */}
-        <span className="star">&#9733;</span>
-        <span className="star">&#9733;</span>
-        <span className="star">&#9733;</span>
-        <span className="star">&#9733;</span>
-        <span className="star">&#9733;</span>
+        <span className="star" key="1">
+          &#9733;
+        </span>
+        <span className="star" key="2">
+          &#9733;
+        </span>
+        <span className="star" key="3">
+          &#9733;
+        </span>
+        <span className="star" key="4">
+          &#9733;
+        </span>
+        <span className="star" key="5">
+          &#9733;
+        </span>
       </div>
     </div>
   );

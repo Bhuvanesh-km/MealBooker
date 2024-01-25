@@ -8,7 +8,7 @@ const ReviewComponent = () => {
       <h2>Reviews</h2>
       <div className="container-review">
         {ReviewsData.map((data) => (
-          <ReviewCard data={data} />
+          <ReviewCard data={data} key={data.name} />
         ))}
       </div>
     </section>

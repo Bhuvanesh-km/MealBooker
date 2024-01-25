@@ -18,7 +18,7 @@ export const PricingData = [
     isFreeDelivery: true,
   },
   {
-    id: 1,
+    id: 3,
     name: "Premium",
     price: 299,
     is1MealPerDay: true,

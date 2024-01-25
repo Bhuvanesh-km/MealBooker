@@ -26,7 +26,7 @@
 
 .card-plans h3 {
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .card-plans h4 {
@@ -45,11 +45,11 @@
   padding-bottom: 10px;
 }
 
-/* .perks {
+.perks {
   display: flex;
   align-items: center;
   justify-content: center;
-} */
+}
 
 .is-check {
   font-size: 20px;

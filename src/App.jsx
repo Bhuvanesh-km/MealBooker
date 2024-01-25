@@ -5,6 +5,8 @@ import {
   StepsComponent,
   ReviewComponent,
   PricingComponent,
+  ContactComponent,
+  FooterComponent,
 } from "./components/index";
 
 function App() {
@@ -15,7 +17,8 @@ function App() {
       <StepsComponent />
       <ReviewComponent />
       <PricingComponent />
-      <div className="hey"></div>
+      <ContactComponent />
+      <FooterComponent />
     </>
   );
 }
