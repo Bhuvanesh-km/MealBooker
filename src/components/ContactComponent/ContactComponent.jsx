@@ -7,7 +7,7 @@ const ContactComponent = () => {
       <div className="container-contact">
         <div className="video-wrapper">
           <video className="looping-video" autoPlay loop muted>
-            <source src="src\assets\Avocado.mp4" type="video/mp4" />
+            <source src="./Avocado.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

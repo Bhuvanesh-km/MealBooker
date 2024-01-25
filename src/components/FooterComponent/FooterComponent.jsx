@@ -19,7 +19,7 @@ const FooterComponent = () => {
           <li className="icon-footer">
             <a href="#">
               <img
-                src="src\assets\facebook-logo-svg.svg"
+                src="./facebook-logo-svg.svg"
                 alt="logo"
                 className="social-img"
               />
@@ -28,7 +28,7 @@ const FooterComponent = () => {
           <li className="icon-footer">
             <a href="#">
               <img
-                src="src\assets\twitter-logo-svg.svg"
+                src="./twitter-logo-svg.svg"
                 alt="logo"
                 className="social-img"
               />
@@ -37,7 +37,7 @@ const FooterComponent = () => {
           <li className="icon-footer">
             <a href="#">
               <img
-                src="src\assets\instagram-round-svg.svg"
+                src="./instagram-round-svg.svg"
                 alt="logo"
                 className="social-img"
               />
@@ -45,11 +45,7 @@ const FooterComponent = () => {
           </li>
           <li className="icon-footer">
             <a href="#">
-              <img
-                src="src\assets\snapchat-svg.svg"
-                alt="logo"
-                className="social-img"
-              />
+              <img src="./snapchat-svg.svg" alt="logo" className="social-img" />
             </a>
           </li>
         </ul>

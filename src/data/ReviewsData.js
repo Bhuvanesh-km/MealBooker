@@ -1,7 +1,7 @@
 export const ReviewsData = [
   {
     name: "DAVID SMITH",
-    imageSrc: "src\\assets\\customer.jpg",
+    imageSrc: "./customer.jpg",
     altName: "customer",
     review:
       "Wow, what an amazing experience! Ordering food has never been this convenient and delightful. The user-friendly interface made it incredibly easy to browse through the diverse menu options and place my order within minutes.",
@@ -9,7 +9,7 @@ export const ReviewsData = [
   },
   {
     name: "NAVEEN KUMAR",
-    imageSrc: "src\\assets\\customer.jpg",
+    imageSrc: "./customer.jpg",
     altName: "customer",
     review:
       "But it's not just the food that impressed me. The delivery process was seamless, with real-time updates on the whereabouts of my order. The delivery personnel were courteous and professional, ensuring that my meal reached me in perfect condition.",
@@ -17,7 +17,7 @@ export const ReviewsData = [
   },
   {
     name: "JOHN DOE",
-    imageSrc: "src\\assets\\customer.jpg",
+    imageSrc: "./customer.jpg",
     altName: "customer",
     review:
       "The food arrived on time and was still warm and fresh. The flavors were outstanding, and the presentation was top-notch. It's evident that the chefs at Your Restaurant Partners put their heart and soul into every dish. I especially loved it was an explosion of flavors in every bite.",
