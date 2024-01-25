@@ -11,7 +11,7 @@ const StepsComponent = () => {
     <section className="Details" id="Details">
       <h2>steps to follow</h2>
       <div className="steps-container">
-        <img src="src\assets\Capture.PNG" alt="steps-to-follow" />
+        <img src="./Capture.PNG" alt="steps-to-follow" />
 
         <div className="steps">
           <div className="steps-content">
