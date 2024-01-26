@@ -111,16 +111,39 @@ a {
 
 @media screen and (max-width: 426px) {
   .main-heading {
-    line-height: 110%;
-    font-size: 150%;
-    font-weight: 400;
+    line-height: 115%;
+    font-size: 250%;
+    font-weight: 500;
   }
   .showcase {
     margin-left: 25px;
   }
 }
+@media screen and (max-width: 376px) {
+  .main-heading {
+    line-height: 110%;
+    font-size: 200%;
+    font-weight: 400;
+    padding-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 413px) {
+  .btn {
+    margin-right: 0.6rem;
+    padding: 0.4rem 0.8rem;
+  }
+  .main-heading {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+}
 
 @media screen and (max-width: 321px) {
+  .main-heading {
+    line-height: 110%;
+    font-size: 150%;
+    padding-bottom: 2rem;
+  }
   .nav-line {
     font-size: small;
   }

@@ -78,6 +78,22 @@ p.footer-p {
   }
 }
 
+@media screen and (max-width: 413px) {
+  li.text-value {
+    font-size: small;
+    margin-right: 8px;
+    margin-left: 4px;
+  }
+  li.icon-footer {
+    margin-right: 10px;
+  }
+  .social-img {
+    height: 25px;
+  }
+  p.footer-p {
+    font-size: small;
+  }
+}
 @media screen and (max-width: 321px) {
   li.text-value {
     font-size: smaller;
